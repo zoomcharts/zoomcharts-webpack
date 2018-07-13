@@ -1,5 +1,5 @@
 {
-  "name": "zoomcharts_test",
+  "name": "zoomcharts-webpack",
   "version": "1.0.0",
   "description": "",
   "main": "./build/bundle.js",

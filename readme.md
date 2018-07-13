@@ -72,28 +72,23 @@ Poject structure
 Setup **__package.json__** file
 ```javascript
 {
-  "name": "zoomcharts_project",
+  "name": "zoomcharts-webpack",
   "version": "1.0.0",
   "description": "",
-  "main": "./dist/bundle.js",
+  "main": "./build/bundle.js",
   "scripts": {
-    "build": "babel src -d build",
-    "webpack": "webpack",
-    "start": "webpack --config webpack.config.js"
+    "start": "webpack --config webpack.config.js",
+    "webpack": "webpack"
   },
   "keywords": [],
   "author": "",
-  "license": "",
+  "license": "ISC",
   "dependencies": {
-    "zoomcharts": "^1.18.4"
+    "@dvsl/zoomcharts": "^1.18.4"
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-core": "^6.26.3",
-    "babel-loader": "^7.1.5",
-    "babel-preset-env": "^1.7.0",
     "copy-webpack-plugin": "^4.5.2",
-    "webpack": "^4.15.1",
+    "webpack": "^4.15.0",
     "webpack-cli": "^3.0.8"
   }
 }
