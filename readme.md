@@ -25,7 +25,6 @@ See [npm documentation](https://docs.npmjs.com/) on how to get started with npm.
 
 ```
 npm install --save @dvsl/zoomcharts
-npm install --save-dev webpack webpack-cli copy-webpack-plugin
 ```
 
 ## Load ZoomCharts as an ES6 module
@@ -59,7 +58,7 @@ var t = new TimeChart({
 If you want to do modifications to ZoomCharts or fix issues, you may build your own files. ZoomCharts uses Webpack as the build system.
 
 ```
-npm i webpack webpack-cli --save-dev
+npm i webpack webpack-cli copy-webpack-plugin --save-dev
 ```
 Poject structure
 ```
