@@ -25,6 +25,7 @@ See [npm documentation](https://docs.npmjs.com/) on how to get started with npm.
 
 ```
 npm install --save @dvsl/zoomcharts
+npm install --save-dev webpack webpack-cli copy-webpack-plugin
 ```
 
 ## Load ZoomCharts as an ES6 module
