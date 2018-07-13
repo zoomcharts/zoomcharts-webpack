@@ -1,0 +1,7 @@
+**/node_modules
+**/package-lock.json
+**/tree.txt
+**/webpack.config.js
+**/.babelrc
+**/build
+**/dist
