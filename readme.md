@@ -65,8 +65,7 @@ Poject structure
 .
 ├── index.html
 ├── package.json
-├── src
-│   └── index.js
+├── index.js
 └── webpack.config.js
 ```
 Setup **__package.json__** file
